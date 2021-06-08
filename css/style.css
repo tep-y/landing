@@ -60,5 +60,53 @@ a {
   color: #31326f;
 }
 
+@media (max-width: 990px) {
+  .container {
+    width: 775px;
+  }
+
+  .card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 620px;
+  }
+
+  .card {
+    width: 150px;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 420px;
+  }
+
+  .card {
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .card h3 {
+    font-size: 14px;
+    text-decoration: underline #9ddfd3;
+  }
+
+  .card img {
+    height: 60px;
+  }
+
+  .footer p {
+  font-size: 11px;
+  }
+}
 
 
